@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const permissionRoutes = require('./admin-backend/AdminRoutes');
-const colorPaletteRoutes = require('./color-palette-backend/ColorPaletteRoutes');
+const permissionRoutes = require('./AdminRoutes');
+const colorPaletteRoutes = require('./ColorPaletteRoutes');
 const cors = require('cors')
 
 mongoose.set('strictQuery', false);
